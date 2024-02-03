@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url(fonts/Gilroy-Medium.ttf);
+}
+* {
+  font-family: "Gilroy";
+}
+body{
+    background-color: #f9f9f9;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.menu-items > ul {
+  display: flex;
+  align-items: center;
+}
+.menu-items > ul > li {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+.menu-items > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+.menu-items > ul > li > a > button {
+  padding: 10px 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #75bf7a;
+  color: white;
+}
+
+.img-section {
+  width: 40%;
+  height: 40%;
+}
+.text-section > h1 {
+  font-weight: 900;
+  font-size: 60.73px;
+  line-height: 65.91px;
+}
+.text-section > p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #9e9da2;
+}
+.pg-2 {
+  background-color: #75bf7a;
+  padding: 30px 0;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.pg-2 > div > p {
+  margin: 20px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+.pg-2 > div > input {
+  width: 480px;
+  padding: 20px 40px;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+}
+.pg-2 > div > button {
+  padding: 20px 60px;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+ }
+ span{
+    color: #75bf7a !important;
+ }
+
+ .page-text{
+    margin: 0 auto;
+ }
+/*
+.pg-3 > .text-section > h1 {
+  font-size: 800;
+  color: #75bf7a;
+  font-weight: 47px;
+  line-height: 50px;
+}
+.pg-3 > .text-section > h1 > span {
+  font-size: 800;
+  color: #75bf7a;
+  font-weight:47px ;
+  line-height: 50px;
+}
+.pg-3 > .text-section > p {
+  font-size: 500;
+  color: #75bf7a;
+  font-weight:23px ;
+  line-height: 26px;
+} */
+.cardshow{
+    background-color: #fff;
+    margin: 100px 0;
+}
+
+footer{
+    min-height: 500px;
+}
