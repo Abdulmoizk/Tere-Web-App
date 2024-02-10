@@ -5,9 +5,8 @@
 * {
   font-family: "Gilroy";
 }
-body{
-    background-color: #f9f9f9;
-
+body {
+  background-color: #f9f9f9;
 }
 
 .container {
@@ -92,14 +91,14 @@ body{
   border-radius: 5px;
   background-color: black;
   color: white;
- }
- span{
-    color: #75bf7a !important;
- }
+}
+span {
+  color: #75bf7a !important;
+}
 
- .page-text{
-    margin: 0 auto;
- }
+.page-text {
+  margin: 0 auto;
+}
 /*
 .pg-3 > .text-section > h1 {
   font-size: 800;
@@ -119,11 +118,11 @@ body{
   font-weight:23px ;
   line-height: 26px;
 } */
-.cardshow{
-    background-color: #fff;
-    margin: 100px 0;
+.cardshow {
+  background-color: #fff;
+  padding: 20px ;
+  margin: 100px 0;
 }
-
-footer{
-    min-height: 500px;
+footer {
+  min-height: 500px;
 }
